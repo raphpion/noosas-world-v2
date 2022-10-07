@@ -1,6 +1,6 @@
-/**
- * Interface for JSON LudiqueAppConfig files.
- */
+import ScreenConfig from './ScreenConfig';
+
+/** Interface for JSON LudiqueAppConfig files. */
 export default interface LudiqueAppConfig {
   /** The LudiqueApp's display title. */
   title: string;
@@ -11,6 +11,6 @@ export default interface LudiqueAppConfig {
   /** Wether `debugMode` is enabled or not for the App. */
   debugEnabled?: boolean;
 
-  /** The Scene that will be launched upon the App's first render. */
-  startupScene?: string;
+  /** The Screen configuration options. */
+  screen?: ScreenConfig;
 }

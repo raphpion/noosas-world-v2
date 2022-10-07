@@ -1,5 +1,13 @@
 {
   "title": "Noosa's World v2",
   "version": "0.0.1",
-  "debugEnabled": true
+  "debugEnabled": true,
+
+  "screen": {
+    "debugFontSize": 16,
+    "drawDebug": true,
+    "minScale": 1,
+    "scaleWidth": 640,
+    "scaleHeight": 480
+  }
 }
